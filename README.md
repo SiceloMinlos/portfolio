@@ -20,4 +20,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Run using vercel:
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https://media.giphy.com/media/CnhXn5Z9OUCYTzBAVr/giphy.gif)
