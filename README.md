@@ -22,8 +22,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Run using vercel:
 
-'''
+```
 Production: https://webpage-nu.vercel.app //feel free to run it on desktop browser or mobile browser
-'''
+```
 
 ![Alt Text](https://media.giphy.com/media/CnhXn5Z9OUCYTzBAVr/giphy.gif)
