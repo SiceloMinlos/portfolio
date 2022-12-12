@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai'
 import { FaLinkedinIn, FaInstagram, FaWhatsapp } from "react-icons/fa"
 import { useRouter } from 'next/router';
-import logoImg from "../public/assets/logo.png"
+import logoImg from "../public/assets/Screenlogo.png"
 
 const navbar = () => {
   const [nav, setNav] = useState(false);
@@ -48,7 +48,9 @@ const navbar = () => {
       className={shadow ? "fixed w-full h-20 shadow-xl z-[100]" : "fixed w-full h-20 z-[100]"}>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href="/">
-        <Image src={logoImg}/>
+          <div style={{ borderRadius: '100%', overflow: 'hidden' }}>
+            <Image src={logoImg} height={80} />
+          </div>
         </Link>
         <div>
           <ul
@@ -87,7 +89,9 @@ const navbar = () => {
             : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
           <div>
             <div className='flex w-full items-center justify-between'>
-              <Image src={logoImg}/>
+              <div style={{ borderRadius: '100%', overflow: 'hidden' }}>
+                <Image src={logoImg} height={80} />
+              </div>
               <div onClick={HandleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                 <AiOutlineClose />
               </div>

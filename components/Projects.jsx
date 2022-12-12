@@ -1,8 +1,7 @@
 import React from 'react'
-import Image from 'next/image'
 import sassaImg from '../public/assets/projects/sassa.jpg'
 import motivationImg from '../public/assets/projects/motivation.jpg'
-import Link from 'next/link'
+import pacmanImg from '../public/assets/projects/pacman.png'
 import ProjectsItems from './ProjectsItems'
 
 const Projects = () => {
@@ -16,6 +15,7 @@ const Projects = () => {
                     Work I have done
                 </h2>
                 <div className='grid md:grid-cols-2 gap-2'>
+                    <ProjectsItems title="PACMAN" backgroundImg={pacmanImg} projectUrl="/pacman" />
                     <ProjectsItems title="SASSA SRD Grant Manager" backgroundImg={sassaImg} projectUrl="/sassa" />
                     <ProjectsItems title="Daily Motivation Web Scraper" backgroundImg={motivationImg} projectUrl="/motivation" />
                 </div>

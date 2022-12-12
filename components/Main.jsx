@@ -1,7 +1,6 @@
 import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { FaLinkedinIn, FaInstagram, FaWhatsapp } from "react-icons/fa"
-// https://www.linkedin.com/in/sicelo-minenhle-gumede
 const Main = () => {
   return (
     <div id="Main" className='w-full h-screen text-center'>
